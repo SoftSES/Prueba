@@ -1,0 +1,84 @@
+
+
+public class Venta {
+
+    String idventa;
+    String idcliente;
+    String idusuario;
+    String fecha;
+    String subtotal;
+    String iva;
+    String tipo;
+    
+    public Venta() {
+    }
+    public Venta(String idventa,String idcliente,String idusuario,String fecha,String subtotal,String iva,String tipo) {
+        this.idventa = idventa;
+        this.idcliente = idcliente;
+        this.idusuario = idusuario;
+        this.fecha = fecha;
+        this.subtotal = subtotal;
+        this.iva = iva;
+        this.tipo = tipo;
+        
+    }
+
+    public String getIdventa() {
+        return idventa;
+    }
+
+    public void setIdventa(String idventa) {
+        this.idventa = idventa;
+    }
+
+    public String getIdcliente() {
+        return idcliente;
+    }
+
+    public void setIdcliente(String idcliente) {
+        this.idcliente = idcliente;
+    }
+
+    public String getIdusuario() {
+        return idusuario;
+    }
+
+    public void setIdusuario(String idusuario) {
+        this.idusuario = idusuario;
+    }
+
+    public String getFecha() {
+        return fecha;
+    }
+
+    public void setFecha(String fecha) {
+        this.fecha = fecha;
+    }
+
+    public String getSubtotal() {
+        return subtotal;
+    }
+
+    public void setSubtotal(String subtotal) {
+        this.subtotal = subtotal;
+    }
+
+    public String getIva() {
+        return iva;
+    }
+
+    public void setIva(String iva) {
+        this.iva = iva;
+    }
+
+    public String getTipo() {
+        return tipo;
+    }
+
+    public void setTipo(String tipo) {
+        this.tipo = tipo;
+    }
+
+   
+    
+}
