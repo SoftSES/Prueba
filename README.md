@@ -8,15 +8,9 @@ package com.softses.entidades;
  *
  * @author usuario
  */
+
 public class CompraDetalle {
-    
-//codigo
-//nombre
-//descripcion
-//costo unitario
-// cantidad
-//valor venta
- // iva
+
     String idfactura;
     String codproducto;
     String cantidad;
